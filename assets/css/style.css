@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Open+Sans:wght@400;800&family=Roboto:wght@700;900&display=swap');
+body{
+    margin: 0 ;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    height: 506px;
+    background-image: url("/assets/img/HeaderBackground_desktop.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    align-items: center;
+
+}
+header h1,p{
+    color: white;
+    
+}
+header h1{
+    text-transform: uppercase;
+    font-family: 'Luckiest Guy', cursive;
+    font-weight: 400;
+    line-height: 32px;
+    font-size:2rem;
+    margin-top: 70px;
+    
+   
+}
+.text {
+   
+    
+   
+ 
+
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 22px ;
+    font-style: normal;
+    box-sizing: border-box;
+  
+    width: 90vw;
+    
+
+
+  
+}
+.open{
+    
+    border: 1px solid #23272A;
+    background-color: #23272A;
+    
+    color: white;
+  
+  
+  
+}
+.download{
+   
+    border: 1px solid white;
+   
+   
+    color: #23272A;
+  
+   
+   
+
+}
+.buttons button  {
+    border-radius: 28px;
+   
+    font-size: 1rem;
+    font-weight: 400px;
+    padding: 1rem 3rem 1rem 3rem;
+    
+    
+    
+    
+    
+    line-height: 21px;
+    box-sizing: border-box;
+    align-items: center;
+    cursor: pointer;
+    
+}
+
+.sections-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+    
+  
+}
+main{
+    padding: 20px;
+    
+}
+.sections-main img{
+    max-width: 100%;
+}
+.sections-main h2{
+    font-weight: 800;
+    font-size: 1.5rem;
+    color: #23272A;
+    line-height: 2rem;
+   
+  
+    font-style: bold;
+    text-align: left;
+    align-self: left;
+    
+
+}
+.text-main{
+    color: black;
+    font-size: 1rem;
+    padding: 1rem;
+   
+}
+
+
+footer{
+    background-color: #23272A;
+    text-align: center;
+    padding: 24px;
+   
+   
+  
+   
+}
+footer img{
+    width: 162px;
+ 
+}
+
+
+
+@media screen and (min-width:1025px){
+    header{
+    background-image: url("/assets/img/HeaderBackground_desktop.png");
+    background-repeat: no-repeat;
+    
+    }
+    .sections-main{
+        flex-direction: row;
+        text-align: center;
+        
+        gap: 40px;
+      
+        
+        
+    }
+    .sections-main h2{
+        width: 100%;
+        font-size: 2.5rem;
+        line-height: 54px ;
+        text-align: left;
+        letter-spacing: 1px;
+    }
+    .section-main .photo{
+        width: 50%;
+
+    }
+    main{
+       
+      
+        text-align: center;
+        padding: 30px;
+    }
+    .texts-main{
+        width: 329px;
+        padding: 0;
+        text-align: justify;
+    }
+    .invert{
+        flex-direction: row-reverse;
+       
+    }
+    .change-column{
+        
+        flex-direction: column;
+        justify-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .change-column img{
+        max-width: 70%;
+        text-align: center;
+        align-self: center;
+    }
+    .change-column-text{
+        width: 100%;
+     
+        align-self: center;
+    
+     
+    }
+    .change-column-text h2{
+        width: 608px;
+        margin: auto;
+        text-align: center;
+    }
+    .change-column-text p{
+        width: 802px;
+        margin: auto;
+      
+        
+       
+        text-align: center;
+    }
+    footer img{
+        width: 230px;
+     
+    }
+    
+    }
+
+
